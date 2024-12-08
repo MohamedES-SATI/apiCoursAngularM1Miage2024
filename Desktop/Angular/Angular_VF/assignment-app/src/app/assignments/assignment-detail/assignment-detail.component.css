@@ -1,0 +1,13 @@
+.red-button {
+    align-self: flex-end;
+    background-color: red !important; /* Forcer le rouge */
+    color: white !important; /* Forcer le texte en blanc */
+  }
+  
+  .red-button:hover {
+    background-color: darkred !important; /* Rouge plus foncé au survol */
+  }
+
+  .red-button:hover {
+  background-color: darkred !important;
+}

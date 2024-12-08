@@ -1,0 +1,39 @@
+.rendu {
+    color: green;
+}
+.nonRendu{
+    color: red;
+}
+.form {
+    display:flex;
+    flex-direction: column;
+    margin:5px;
+ }
+ .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+.ajouterBtn {
+    align-self: flex-end;
+    background-color: red !important;
+   color: white !important;
+   border: 0ch;
+}
+.ajouterBtn.mat-button-wrapper {
+    background-color: inherit; /* S'assurer que la couleur de fond s'applique correctement */
+  }
+  .red-button {
+    background-color: red !important;
+    color: white !important;
+    align-self: flex-end;
+  }
+  
+  .red-button .mat-button-wrapper {
+    background-color: inherit; /* S'assurer que la couleur de fond s'applique correctement */
+  }
+  
+  .red-button:hover {
+    background-color: darkred !important;
+  }
+  
